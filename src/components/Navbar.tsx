@@ -28,35 +28,35 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="w-full flex justify-between items-center p-4 bg-gray-100 dark:bg-gray-900 shadow-md text-gray-900 dark:text-white">
+    <nav className="w-full flex justify-between items-center p-4 shadow-md bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white font-semibold tracking-wide">
       <div className="text-lg font-bold">
-        <Link href="/" className="text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">
+        <Link href="/" className="hover:opacity-80 transition-opacity">
           Portfolio
         </Link>
       </div>
       <ul className="flex space-x-6">
         <li>
-          <Link href="/" className="text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300 hover:underline">
+          <Link href="/" className="hover:opacity-80 transition-opacity hover:underline">
             Home
           </Link>
         </li>
         <li>
-          <Link href="/about" className="text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300 hover:underline">
+          <Link href="/about" className="hover:opacity-80 transition-opacity hover:underline">
             About
           </Link>
         </li>
         <li>
-          <Link href="/projects" className="text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300 hover:underline">
+          <Link href="/projects" className="hover:opacity-80 transition-opacity hover:underline">
             Projects
           </Link>
         </li>
         <li>
-          <Link href="/skills" className="text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300 hover:underline">
+          <Link href="/skills" className="hover:opacity-80 transition-opacity hover:underline">
             Skills
           </Link>
         </li>
         <li>
-          <Link href="/contact" className="text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300 hover:underline">
+          <Link href="/contact" className="hover:opacity-80 transition-opacity hover:underline">
             Contact
           </Link>
         </li>
@@ -64,7 +64,7 @@ export default function Navbar() {
       <button
         onClick={toggleDarkMode}
         aria-label="Toggle Dark Mode"
-        className="ml-4 text-xl text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300"
+        className="ml-4 text-xl hover:opacity-80 transition-opacity"
       >
         {darkMode ? <FiSun /> : <FiMoon />}
       </button>
