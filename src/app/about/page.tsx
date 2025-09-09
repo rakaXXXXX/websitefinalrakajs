@@ -21,10 +21,10 @@ export default function About() {
           >
             <h2 className="text-2xl font-semibold mb-4">Personal Information</h2>
             <div className="space-y-2">
-              <p><strong>Name:</strong> Your Full Name</p>
-              <p><strong>School:</strong> Your School Name</p>
+              <p><strong>Name:</strong> Raka Bagus Alif Faza Kaizen</p>
+              <p><strong>School:</strong> SMKN 8 MALANG</p>
               <p><strong>Major:</strong> Computer Science / Web Development</p>
-              <p><strong>Location:</strong> Your City, Country</p>
+              <p><strong>Location:</strong> MALANG, INDONESIA</p>
             </div>
           </motion.div>
 
@@ -35,16 +35,13 @@ export default function About() {
           >
             <h2 className="text-2xl font-semibold mb-4">My Journey</h2>
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-              I started my coding journey with a passion for creating digital experiences.
-              What began as curiosity about how websites work has evolved into a deep
-              commitment to mastering web development technologies. I love turning ideas
-              into functional, beautiful applications that solve real-world problems.
+             Saya memulai perjalanan coding saya dengan hasrat untuk menciptakan pengalaman digital.
+Yang awalnya hanya rasa ingin tahu tentang cara kerja situs web telah berkembang menjadi komitmen mendalam
+untuk menguasai teknologi pengembangan web. Saya senang menuangkan ide
+menjadi aplikasi fungsional dan indah yang memecahkan masalah dunia nyata.
             </p>
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed mt-4">
-              My motivation comes from the endless possibilities in technology and the
-              satisfaction of seeing users interact with something I've built. I'm
-              constantly learning new technologies and frameworks to stay current in
-              this rapidly evolving field.
+              Motivasi saya masuk ke jurusan rpl adalah,saya merasa kalau industri dibidang IT akan sangat diperlukan dimasa depan.dan karena perkembangan Artificial intellegent semkain cepat maka kita perlu belajar ilmu yang bisa bersaing dengan AI
             </p>
           </motion.div>
         </div>

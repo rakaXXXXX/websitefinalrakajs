@@ -27,6 +27,25 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* Ensure high contrast text throughout the site */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--foreground);
+  font-weight: 600;
+}
+
+p, span, div {
+  color: var(--foreground);
+}
+
+/* Improve text contrast in dark mode */
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+  color: #ffffff;
+}
+
+.dark p, .dark span, .dark div {
+  color: #e5e7eb;
+}
+
 /* Fix for navbar and footer background and text colors to match theme */
 nav, footer {
   background-color: var(--background);

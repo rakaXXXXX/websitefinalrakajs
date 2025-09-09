@@ -5,6 +5,10 @@ import { useState } from "react";
 import { FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
 
 export default function Contact() {
+  // Replace these with your actual usernames
+  const githubUsername = "yourusername";
+  const instagramUsername = "yourusername";
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -52,7 +56,7 @@ export default function Contact() {
               <div className="flex items-center space-x-3">
                 <FiGithub size={24} />
                 <a
-                  href="https://github.com/yourusername"
+                  href={`https://github.com/rakaXXXXX`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 dark:text-blue-400 hover:underline"
@@ -63,23 +67,12 @@ export default function Contact() {
               <div className="flex items-center space-x-3">
                 <FiInstagram size={24} />
                 <a
-                  href="https://instagram.com/yourusername"
+                  href={`https://www.instagram.com/rxkx_dyras?igsh=MXc2bzd2Mjg2YWx6eQ==`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 dark:text-blue-400 hover:underline"
                 >
                   Instagram
-                </a>
-              </div>
-              <div className="flex items-center space-x-3">
-                <FiLinkedin size={24} />
-                <a
-                  href="https://linkedin.com/in/yourusername"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-600 dark:text-blue-400 hover:underline"
-                >
-                  LinkedIn
                 </a>
               </div>
             </div>

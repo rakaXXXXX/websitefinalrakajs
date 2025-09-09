@@ -26,5 +26,12 @@ export const projects = [
     description: "A modern portfolio website showcasing projects, skills, and experience with smooth animations and responsive design.",
     github: "https://github.com/username/portfolio",
     deploy: "https://portfolio-demo.vercel.app"
+  },
+  {
+    id: 5,
+    name: "My Project",
+    description: "Description of my project. Replace this with your project description.",
+    github: "https://github.com/yourusername/yourproject",
+    deploy: "https://yourproject.vercel.app"
   }
 ];
